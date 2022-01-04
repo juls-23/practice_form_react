@@ -1,0 +1,32 @@
+@import './../../../common/styles/templates';
+@import './../../../common/styles/variables';
+
+
+.radioInput{
+  margin: 0.6rem 0;
+  padding: 1rem;
+  border: 1px solid $lightColor;
+  font-size: 0.7rem;
+
+}
+
+.radioTitle{
+  padding-left: 0.2rem;
+  font-size: 1rem;
+  text-transform:capitalize;
+  @media screen and (min-width: $sm){
+    font-size: 1.2rem;
+  }
+}
+
+.radioText{ 
+  margin-top: 0.3rem ;
+  margin-left: 1.2rem;
+}
+
+.error{
+ @extend %error;
+}
+
+
+

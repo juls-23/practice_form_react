@@ -1,0 +1,11 @@
+@import './../../../common/styles/variables';
+
+.btn{
+  padding: 0.5rem;
+  border: 2px solid $lightColor;
+  background-color: transparent;
+  color: $lightColor;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}

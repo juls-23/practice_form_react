@@ -1,0 +1,14 @@
+@import './../../common/styles/breakpoints';
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem 1rem;
+  @media screen and (min-width: $sm){
+    margin: 2rem 4rem; 
+  }
+  @media screen and (min-width: $md){
+    margin: 2rem 10rem; 
+  }
+}

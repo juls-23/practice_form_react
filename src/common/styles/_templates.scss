@@ -1,0 +1,40 @@
+@import './variables';
+@import './breakpoints';
+
+%title{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+%container{
+  width: 80%;
+  margin: 2rem auto; 
+  @media screen and (min-width: $md){
+    width: 60%;
+  }
+  @media screen and (min-width: $lg){
+    width: 40%;
+  }
+}
+
+
+%btn{
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border: none;
+  background-color: $btnColor;
+  color: inherit;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+%error{
+  color: $InvalidColor;
+  position: absolute;
+  width: 80%;
+  height: 1.5rem;
+  font-size: 0.7rem;
+}
+
